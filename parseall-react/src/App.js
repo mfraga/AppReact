@@ -13,17 +13,7 @@ import portfolioImg4 from './images/portfolio-img4.jpg';
 function App() {
   return (
     <div className="App">
-      {/*<!-- start preloader -->*/}*/}
-      <div className="preloader">
-        <div className="sk-spinner sk-spinner-wave">
-          <div className="sk-rect1"></div>
-          <div className="sk-rect2"></div>
-          <div className="sk-rect3"></div>
-          <div className="sk-rect4"></div>
-          <div className="sk-rect5"></div>
-        </div>
-      </div>
-      {/*<!-- end preloader -->*/}
+
       {/*<!-- start header -->*/}
       <header>
       </header>
