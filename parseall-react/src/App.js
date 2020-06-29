@@ -9,8 +9,13 @@ import portfolioImg1 from './images/portfolio-img1.jpg';
 import portfolioImg2 from './images/portfolio-img2.jpg';
 import portfolioImg3 from './images/portfolio-img3.jpg';
 import portfolioImg4 from './images/portfolio-img4.jpg';
+import WOW from 'wowjs';
 
 function App() {
+  const wow = new WOW.WOW();
+  wow.init();
+  var ReactRotatingText = require('react-rotating-text');
+  
   return (
     <div className="App">
 
@@ -27,7 +32,7 @@ function App() {
               <span className="icon icon-bar"></span>
               <span className="icon icon-bar"></span>
             </button>
-            <a href="#" className="navbar-brand">Fraga IT</a>
+            <a href="#" className="navbar-brand">Parse All Sistemas</a>
           </div>
           <div className="collapse navbar-collapse">
             <ul className="nav navbar-nav navbar-right">
@@ -46,12 +51,12 @@ function App() {
         <div className="container">
           <div className="row">
             <div className=" col-md-8">
-              <h1 className="wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s">Software Dev. Studio <span> Fraga IT </span></h1>
+              <h1 className="wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s">Software Dev. Studio <span> Parse All Sistemas </span></h1>
               <div className="element">
-                <div className="sub-element">Freelancer for Web and Mobile Development.</div>
-                <div className="sub-element">Deploy apps to cloud platforms AWS and Google.</div>
-                <div className="sub-element">Build Hybrid Apps with Flutter.</div>
-                <div className="sub-element">Consulting for GIS applications.</div>
+                <ReactRotatingText items={['Freelancer for Web and Mobile Development.', 
+                'Deploy apps to cloud platforms AWS and Google.', 
+                'Build Hybrid Apps with Flutter.',
+                'Consulting for GIS applications.']} />
               </div>
               <a data-scroll href="#service" className="btn btn-default wow fadeInUp" data-wow-offset="50" data-wow-delay="0.6s">GET STARTED</a>
             </div>
@@ -64,7 +69,7 @@ function App() {
         <div className="container">
           <div className="row justify-content-md-center">
             <div className="col-md-12">
-              <h2 className="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s"><span>Fraga IT </span> Players</h2>
+              <h2 className="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s"><span>Parse All Sistemas</span> Players</h2>
             </div>
             <div className="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.3s">
 
@@ -129,7 +134,7 @@ function App() {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h2 className="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s"><span>Fraga IT</span> Portifolio</h2>
+              <h2 className="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s"><span>Parse All Sistemas</span> Portifolio</h2>
             </div>
             <div className="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
               <div className="portfolio-thumb">
@@ -181,7 +186,7 @@ function App() {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h2 className="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">Contact <span>Fraga IT</span></h2>
+              <h2 className="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">Contact <span>Parse All Sistemas</span></h2>
             </div>
             <h4>Social Media</h4>
             <div className="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-offset="50" data-wow-delay="0.6s">
@@ -220,14 +225,14 @@ function App() {
           <div className="row">
             <div className="col-md-12 text-center">
               <p className="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">
-                Fraga IT  Software Studio</p>
+              Parse All Systems Software Studio</p>
             </div>
           </div>
         </div>
       </footer>
       {/*<!-- end copyright -->*/}
       {/*<!-- Modal -->*/}
-      <div className="modal fade" id="modalCenter" tabIndex="-1" role="dialog" aria-labelledby="Fraga IT" aria-hidden="true">
+      <div className="modal fade" id="modalCenter" tabIndex="-1" role="dialog" aria-labelledby="Parse All Sistemas" aria-hidden="true">
         <div className="modal-dialog modal-dialog-centered " role="document">
           <div className="modal-content">
             <div className="modal-header">
